@@ -1,5 +1,6 @@
+pandas
+plotly
 streamlit
-opencv-python-headless
-Pillow
-numpy
-scikit-image 
+yfinance
+pandas-datareader
+prophet
