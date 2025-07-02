@@ -29,7 +29,7 @@ if uploaded:
     area = obj.area 
     diameter = 2 * np.sqrt(area / np.pi) 
     diamteres.append(diameter)
-    if diameter >= threshold_um 
+    if diameter >= threshold_um: 
           large_count +=1
 
     st.success(f" Total spheroids: {len(diameters)}") 
