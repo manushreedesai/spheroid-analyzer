@@ -9,7 +9,7 @@ st.write("Upload a grayscale or brightfield image to count large cell spheroids.
 
 uploaded = st.file_uploader("Upload image", type=["png", "jpg", "jpeg", "tif"])
 
-threshold_um=st.slider("Set diameter threshold for 'large' spheroids ((µm)", 100,1000,300))
+threshold_um=st.slider("Set diameter threshold for 'large' spheroids (um)", 100,1000,300))
 
 if uploaded: 
   image = Image.open(uploaded).convert("L")
